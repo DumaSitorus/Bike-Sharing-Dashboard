@@ -20,7 +20,7 @@ if "selected_section" not in st.session_state:
     st.session_state["selected_section"] = "About Dataset"
 
 # Sidebar Menu Navigasi dengan Button
-st.sidebar.image("st_logo.png")
+st.sidebar.image("https://raw.githubusercontent.com/DumaSitorus/Bike-Sharing-Dashboard/main/dashboard/st_logo.png")
 selected_section = st.session_state.get("selected_section", "About Dataset")
 
 if st.sidebar.button("📊 About Dataset"):
