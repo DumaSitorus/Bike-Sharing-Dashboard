@@ -6,8 +6,8 @@ import seaborn as sns
 sns.set(style='dark')
 
 # Load dataset
-hour_df = pd.read_csv("hour_data.csv")
-day_df = pd.read_csv("day_data.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/DumaSitorus/Bike-Sharing-Dashboard/refs/heads/main/dashboard/hour_data.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/DumaSitorus/Bike-Sharing-Dashboard/refs/heads/main/dashboard/day_data.csv")
 
 # Konversi kolom tanggal
 if 'dteday' in hour_df.columns:
